@@ -5,10 +5,10 @@ import { portfolioSlider } from "../swiperSliderProps";
 
 const IMAGES = [
   {
-    src: "/img/portfolio/1.jpg",
-    thumbnail: "/img/portfolio/1.jpg",
-    title: "Magic Art",
-    sub: "Image",
+    src: "/img/portfolio/VirtualGaeltachtScreenshot.png",
+    thumbnail: "/img/portfolio/VirtualGaeltachtScreenshot.jpg",
+    title: "Virtual Gaeltacht",
+    sub: "Virtual Gaeltacht",
   },
   {
     src: "/img/portfolio/2.jpg",

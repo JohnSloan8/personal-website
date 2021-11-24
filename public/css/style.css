@@ -530,7 +530,7 @@ body.opened .kura_tm_hero .content .left {
 .kura_tm_hero .name {
     display: inline-block;
     margin-bottom: 16px;
-    color: #ff4522;
+    color: #445613 !important;
     font-family: "Poppins";
     font-weight: 500;
 }
@@ -823,7 +823,7 @@ body.opened .kura_tm_hero .content .right .image .main {
     bottom: -23px;
     left: -95px;
     width: 90%;
-    background-color: #ff4522;
+    background-color: #456613 !important;
     transform: rotate(0deg);
     z-index: 1;
     border-radius: 10px;

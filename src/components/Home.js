@@ -21,8 +21,8 @@ const Home = () => {
         <div className="container">
           <div className="content">
             <div className="left">
-              <span className="name">Bernard Smith</span>
-              <h3 className="job">Creative Designer based in Japan</h3>
+              <span className="name">John Sloan</span>
+              <h3 className="job">Teacher, Linguist & Computer Scientist</h3>
               <div className="services">
                 <ul>
                   <li>
@@ -30,13 +30,13 @@ const Home = () => {
                       href="#"
                       onClick={() =>
                         onOpenModal(
-                          "/img/service/1.jpg",
-                          "Creative Designer based in Japan"
+                          "/img/hero/PhDProjectDevelopment.png",
+                          "Emotional Response Language Education"
                         )
                       }
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
-                      <span>Web Development</span>
+                      <span>PhD Computer Science</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -52,7 +52,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
-                      <span>Digital Marketing</span>
+                      <span>MA Linguistics</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -68,7 +68,7 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Graphic Design</span>
+                      <span>Teaching</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -82,21 +82,21 @@ const Home = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>10+</h3>
+                      <h3>5+</h3>
                       <span>
                         Years of
                         <br />
-                        Experience
+                        Software Development
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K+</h3>
+                      <h3>10+</h3>
                       <span>
-                        Happy
+                        Years of
                         <br />
-                        Customers
+                        Teaching
                       </span>
                     </div>
                   </li>
@@ -108,7 +108,7 @@ const Home = () => {
                 <img src="/img/thumbs/3-4.jpg" alt="" />
                 <div
                   className="main"
-                  style={{ backgroundImage: "url(img/hero/1.jpg)" }}
+                  style={{ backgroundImage: "url(img/hero/JohnTedCropped.jpg)" }}
                 ></div>
                 <div className="shape"></div>
               </div>
