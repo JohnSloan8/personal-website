@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Audio from "../src/components/Audio";
 import Contact from "../src/components/Contact";
 import Cursor from "../src/components/Cursor";
@@ -13,14 +13,17 @@ import Header from "../src/layout/Header";
 import Settings from "../src/layout/Settings";
 import PageHead from "../src/PageHead";
 
-const Index = () => {
+const IndexDark = () => {
+  useEffect(() => {
+    document.querySelector("body").classList.add("dark");
+  }, []);
   return (
     <Fragment>
       <PageHead page="Home" />
       <div id="opened">
         <div className="kura_tm_all_wrap" data-color="orange">
           <Settings />
-          <Header />
+          <Header dark />
           <Home />
           <Portfolio />
           <Skills />
@@ -37,4 +40,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default IndexDark;
