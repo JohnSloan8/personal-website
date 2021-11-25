@@ -25,8 +25,8 @@ const News = () => {
         <div className="kura_tm_news">
           <div className="container">
             <div className="kura_tm_main_title">
-              <span>News</span>
-              <h3>Latest News</h3>
+              <span>Portfolio</span>
+              <h3>Selected Works</h3>
             </div>
             <div className="news_list wow fadeInUp" data-wow-duration=".7s">
               <div className="slick-container">
@@ -39,7 +39,7 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/1.jpg)",
+                              backgroundImage: "url(/img/news/VirtualGaeltachtScreenshot.png)",
                             }}
                           ></div>
                         </div>
@@ -50,8 +50,8 @@ const News = () => {
                           alt=""
                         />
                         <div className="details">
-                          <span>September 02, 2021</span>
-                          <h3>VS Code Gets New JavaScript Debugger</h3>
+                          <span>Virtual Environment</span>
+                          <h3>Metaverse 'as Gaeilge'</h3>
                         </div>
                         <a
                           className="kura_tm_full_link"
@@ -104,7 +104,7 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/2.jpg)",
+                              backgroundImage: "url(/img/news/DSDScheduleScreenshot.png)",
                             }}
                           ></div>
                         </div>
@@ -115,8 +115,8 @@ const News = () => {
                           alt=""
                         />
                         <div className="details">
-                          <span>August 17, 2021</span>
-                          <h3>Javalin Framework for Kotlin and Java Updated</h3>
+                          <span>UX Design</span>
+                          <h3>DSDAC Training Schedule</h3>
                         </div>
                         <a
                           className="kura_tm_full_link"
@@ -169,7 +169,7 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/3.jpg)",
+                              backgroundImage: "url(/img/news/ExpressiveAvatarSaoirseImage.png)",
                             }}
                           ></div>
                         </div>
@@ -180,8 +180,8 @@ const News = () => {
                           alt=""
                         />
                         <div className="details">
-                          <span>July 05, 2021</span>
-                          <h3>JavaScript Dominated Open Source in 2021</h3>
+                          <span>Avatar Creation</span>
+                          <h3>Saoirse: An Expressive Avatar</h3>
                         </div>
                         <a
                           className="kura_tm_full_link"
@@ -234,7 +234,7 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/4.jpg)",
+                              backgroundImage: "url(/img/news/three_saoirses.png)",
                             }}
                           ></div>
                         </div>
@@ -245,8 +245,8 @@ const News = () => {
                           alt=""
                         />
                         <div className="details">
-                          <span>April 22, 2021</span>
-                          <h3>Perfecto Tests Progressive Web Apps</h3>
+                          <span>E-learning Platform</span>
+                          <h3>Emotional Response Language Education</h3>
                         </div>
                         <a
                           className="kura_tm_full_link"

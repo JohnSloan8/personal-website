@@ -23,9 +23,7 @@ const Skills = () => {
               </div>
               <div className="text wow fadeInUp" data-wow-duration=".7s">
                 <p>
-                  For more than 20 years our experts have been accomplishing
-                  enough with modern Web Development, new generation web and app
-                  programming language.
+                  Five years experience in bringing a diverse range of highly technical projects through the full software development lifecycle.
                 </p>
               </div>
               <div
@@ -33,21 +31,59 @@ const Skills = () => {
                 data-wow-duration=".7s"
                 data-wow-delay=".2s"
               >
-                <div className="progress_inner" data-value="95">
+                <div className="progress_inner" data-value="90">
                   <span>
                     <span className="label">HTML &amp; CSS</span>
-                    <span className="number">95%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
-                      <div className="bar_in" style={{ width: "95%" }}></div>
+                      <div className="bar_in" style={{ width: "90%" }}></div>
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner" data-value="80">
+                <div className="progress_inner" data-value="90">
                   <span>
                     <span className="label">JavaScript</span>
-                    <span className="number">80%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Python</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">R</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "60%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Django</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Node</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -55,10 +91,39 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner" data-value="90">
+                <div className="progress_inner" data-value="">
                   <span>
-                    <span className="label">WordPress</span>
-                    <span className="number">90%</span>
+                    <span className="label">React</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "70%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Web Animation & Visualisation (three.js, chart.js)</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Blender</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Databases (SQL & noSQL)</span>
                   </span>
                   <div className="background">
                     <div className="bar">

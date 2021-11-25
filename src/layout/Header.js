@@ -74,7 +74,7 @@ const Header = ({ dark }) => {
             <div className="logo">
               <a href="#">
                 <img
-                  src={dark ? "/img/logo/logo.png" : "/img/logo/dark.png"}
+                  src={dark ? "" : ""}
                   alt=""
                 />
               </a>
