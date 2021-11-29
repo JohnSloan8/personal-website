@@ -7,6 +7,7 @@ import News from "../src/components/News";
 import Portfolio from "../src/components/Portfolio";
 import Price from "../src/components/Price";
 import Skills from "../src/components/Skills";
+import SkillsCommunication from "../src/components/SkillsCommunication";
 import Timeline from "../src/components/Timeline";
 import Footer from "../src/layout/Footer";
 import Header from "../src/layout/Header";
@@ -19,18 +20,16 @@ const Index = () => {
       <PageHead page="Home" />
       <div id="opened">
         <div className="kura_tm_all_wrap" data-color="orange">
-          <Settings />
           <Header />
           <Home />
           <News />
           <Skills />
+          <SkillsCommunication />
           <Timeline />
           <Contact />
           <Price />
           <Portfolio />
           <Footer />
-          <Audio />
-          <Cursor />
         </div>
       </div>
     </Fragment>

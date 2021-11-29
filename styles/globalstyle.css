@@ -32,3 +32,13 @@ a {
 .settingSvg {
   filter: unset !important;
 }
+.jarallax-container {
+  width: 130% !important;
+  height: 80% !important;
+  top: 15% !important;
+  right: 10% !important;
+}
+#VideoWorker-0 {
+  height: 90% !important;
+  top: 25% !important;
+}

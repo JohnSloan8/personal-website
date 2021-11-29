@@ -33,16 +33,6 @@ const Skills = () => {
               >
                 <div className="progress_inner" data-value="90">
                   <span>
-                    <span className="label">HTML &amp; CSS</span>
-                  </span>
-                  <div className="background">
-                    <div className="bar">
-                      <div className="bar_in" style={{ width: "90%" }}></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="progress_inner" data-value="90">
-                  <span>
                     <span className="label">JavaScript</span>
                   </span>
                   <div className="background">
@@ -68,6 +58,16 @@ const Skills = () => {
                   <div className="background">
                     <div className="bar">
                       <div className="bar_in" style={{ width: "60%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="90">
+                  <span>
+                    <span className="label">HTML &amp; CSS</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const Skills = () => {
                 </div>
                 <div className="progress_inner" data-value="">
                   <span>
-                    <span className="label">Web Animation & Visualisation (three.js, chart.js)</span>
+                    <span className="label">Web Animation (three.js)</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -127,6 +127,36 @@ const Skills = () => {
                   </span>
                   <div className="background">
                     <div className="bar">
+                      <div className="bar_in" style={{ width: "80%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Data Analysis (Pandas, Scikit-learn, Jupyter)</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">Data Visualisation (Matplotlib, three.js)</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "80%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="">
+                  <span>
+                    <span className="label">NLP (NLTK, spaCy)</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
                       <div className="bar_in" style={{ width: "90%" }}></div>
                     </div>
                   </div>
@@ -135,13 +165,6 @@ const Skills = () => {
             </div>
             <div className="right">
               <ParallaxVideo />
-              <div
-                className="my_image jarallax"
-                data-speed="0"
-                style={{
-                  backgroundImage: "url(/img/portfolio/2.jpg)",
-                }}
-              ></div>
             </div>
           </div>
         </div>
