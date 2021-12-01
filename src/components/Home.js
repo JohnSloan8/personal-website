@@ -69,7 +69,7 @@ const Home = () => {
                     <a
                       href="#"
                       onClick={() =>
-                        onOpenModal("/img/service/1.jpg", "Teaching & Learning")
+                        onOpenModal("/img/hero/teachingPic.jpg", "Teaching & Learning")
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />

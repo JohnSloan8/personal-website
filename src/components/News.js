@@ -8,15 +8,18 @@ const News = () => {
   const [modalValue, setModalValue] = useState({
     img: null,
     title: "",
+    website: "",
+    github: "",
+    technologies: [],
     date: "",
   });
-  const onOpenModal = (img, title, date) => {
+  const onOpenModal = (img, title, website, github, technologies, date) => {
     setOpen(true);
-    setModalValue({ img, title, date });
+    setModalValue({ img, title, website, github, technologies, date });
   };
   const onCloseModal = () => {
     setOpen(false);
-    setModalValue({ img: null, title: "", date: "" });
+    setModalValue({ img: null, title: "", website: "", github: "", technologies: [], date: "" });
   };
 
   return (
@@ -57,9 +60,11 @@ const News = () => {
                           className="kura_tm_full_link"
                           onClick={() =>
                             onOpenModal(
-                              `img/news/1.jpg`,
-                              "VS Code Gets New JavaScript Debugger",
-                              "September 02, 2021"
+                              "img/news/VirtualGaeltachtManyScreens.png",
+                              "Metaverse 'as Gaeilge'",
+                              "virtual-gaeltacht.com",
+                              "github.com/JohnSloan8/virtual-gaeltacht",
+                              ["Node", "three.js", "WebRTC", "Express", "mongodb"]
                             )
                           }
                         ></a>
@@ -122,9 +127,11 @@ const News = () => {
                           className="kura_tm_full_link"
                           onClick={() =>
                             onOpenModal(
-                              `img/news/2.jpg`,
-                              "Javalin Framework for Kotlin and Java Updated",
-                              "August 17, 2021"
+                              `img/news/DSDScheduleSimplification.png`,
+                              "DSDAC Training Schedule",
+                              "virtual-gaeltacht.com",
+                              "github.com/JohnSloan8/virtual-gaeltacht",
+                              ["Node", "three.js", "WebRTC", "Express", "mongodb"]
                             )
                           }
                         ></a>
@@ -187,9 +194,11 @@ const News = () => {
                           className="kura_tm_full_link"
                           onClick={() =>
                             onOpenModal(
-                              `img/news/3.jpg`,
-                              "JavaScript Dominated Open Source in 2021",
-                              "July 05, 2021"
+                              "/img/news/output.gif",
+                              "Saoirse: An Expressive Avatar",
+                              "virtual-gaeltacht.com",
+                              "github.com/JohnSloan8/virtual-gaeltacht",
+                              ["Node", "three.js", "WebRTC", "Express", "mongodb"]
                             )
                           }
                         ></a>
@@ -254,7 +263,9 @@ const News = () => {
                             onOpenModal(
                               `img/news/4.jpg`,
                               "Perfecto Tests Progressive Web Apps",
-                              "April 22, 2021"
+                              "virtual-gaeltacht.com",
+                              "github.com/JohnSloan8/virtual-gaeltacht",
+                              ["Node", "three.js", "WebRTC", "Express", "mongodb"]
                             )
                           }
                         ></a>
@@ -330,6 +341,9 @@ const News = () => {
         onCloseModal={() => onCloseModal()}
         img={modalValue.img}
         title={modalValue.title}
+        website={modalValue.website}
+        github={modalValue.github}
+        technologies={modalValue.technologies}
         date={modalValue.date}
       />
     </Fragment>
