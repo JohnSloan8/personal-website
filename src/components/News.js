@@ -63,9 +63,9 @@ const News = () => {
                             onOpenModal(
                               "img/news/VirtualGaeltachtManyScreens.png",
                               "Metaverse 'as Gaeilge'",
-                              "virtual-gaeltacht.com",
-                              "https://www.youtube.com/watch?v=UlHRjp74tNM",
-                              "github.com/JohnSloan8/virtual-gaeltacht",
+                              "https://virtual-gaeltacht.com",
+                              "https://youtube.com/watch?v=UlHRjp74tNM",
+                              "https://github.com/JohnSloan8/virtual-gaeltacht",
                               ["Node", "three.js", "WebRTC", "Express", "mongodb"]
                             )
                           }
@@ -99,9 +99,9 @@ const News = () => {
                             onOpenModal(
                               `img/news/DSDScheduleSimplification.png`,
                               "DSDAC Training Schedule",
-                              "i-cant-believe-its-not-dsdac.com",
+                              "http://i-cant-believe-its-not-dsdac.com",
                               "",
-                              "github.com/JohnSloan8/dsd-schedule",
+                              "https://github.com/JohnSloan8/dsd-schedule",
                               ["Django", "chart.js"]
                             )
                           }
@@ -137,7 +137,7 @@ const News = () => {
                               "Saoirse: An Expressive Avatar",
                               "",
                               "",
-                              "github.com/JohnSloan8/erle-sandbox",
+                              "https://github.com/JohnSloan8/erle-sandbox",
                               ["Blender",  "Django", "three.js", "PostreSQL"]
                             )
                           }

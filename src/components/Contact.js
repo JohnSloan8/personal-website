@@ -107,7 +107,7 @@ const Contact = () => {
                         <g></g>
                         <g></g>
                       </svg>
-                      <span><a href="johndsloan.me">johndsloan.me</a></span>
+                      <span><a href="https://johndsloan.me">johndsloan.me</a></span>
                     </div>
                   </li>
                   <li>
@@ -149,7 +149,7 @@ const Contact = () => {
                         <g></g>
                         <g></g>
                       </svg>
-                      <span><a href="www.linkedin.com/in/john-sloan-phd/">john-sloan-phd</a></span>
+                      <span><a href="https://www.linkedin.com/in/john-sloan-phd">john-sloan-phd</a></span>
                     </div>
                   </li>
                   <li>

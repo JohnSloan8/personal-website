@@ -48,15 +48,15 @@ export const NewsModal = ({ open, onCloseModal, img, title, website, demo, githu
 };
 
 const PhDtext = `
-Designed, developed and tested four versions of Emotional Response Language Education (ERLE), a bespoke e-learning platform which uses the expressions of an animated avatar to provide corrective feedback to language learners. Analysed the resulting text and audio data and published peer-review research for each version. Demonstrated that use of ERLE over 8 weeks leads to significant reductions in grammatical and lexical errors made by ESL learners.
+Designed, developed and user tested four versions of Emotional Response Language Education (ERLE), a bespoke e-learning platform which uses the expressions of an animated avatar to provide corrective feedback to language learners. Conducted numerous empirical studies with learners in East Asia, analysed the resulting text and audio data and published peer-review research for each version of ERLE. Demonstrated that use of the platform over 8 weeks leads to significant reductions in grammatical and lexical errors made by ESL learners.
 `
 
 const MAtext = `
-Investigated the use of non-verbal signals - facial expressions and gaze direction - as a means of providing corrective feedback to learners. Received 1st class honours.
+Investigated the use of non-verbal signals - facial expressions and gaze direction - as a means of providing corrective feedback to learners. Conducted an empirical study on this form of feedback with Brazilian English learners in Dublin. Received 1st class honours.
 `
 
 const Teachingtext = `
-Founded and ran an after school English academy in Seoul. Passed the advanced level TOPIK (Test Of Proficiency In Korean, level 5 - CEFR C1 equivalent). Taught business English at Samsung, LG and Doosan.
+Founded and ran an after school English academy in Seoul. Passed the advanced TOPIK (Test Of Proficiency In Korean, level 5 - CEFR C1 equivalent). Taught business English at Samsung, LG and Doosan.
 `
 
 export const HomeModal = ({ open, onCloseModal, img, title, logo, date }) => {
