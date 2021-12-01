@@ -34,19 +34,13 @@ const Header = ({ dark }) => {
                     <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#news">Portfolio</a>
                   </li>
                   <li>
                     <a href="#skills">Skills</a>
                   </li>
                   <li>
                     <a href="#timeline">Timeline</a>
-                  </li>
-                  <li>
-                    <a href="#price">Price</a>
-                  </li>
-                  <li>
-                    <a href="#news">News</a>
                   </li>
                   <li>
                     <a href="#contact">Contact</a>

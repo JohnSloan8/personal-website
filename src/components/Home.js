@@ -22,7 +22,7 @@ const Home = () => {
           <div className="content">
             <div className="left">
               <span className="name">John Sloan</span>
-              <h3 className="job">Teacher, Linguist, Computer Scientist</h3>
+              <h3 className="job">Teacher, Linguist, Software Engineer</h3>
               <div className="services">
                 <ul>
                   <li>
@@ -101,7 +101,7 @@ const Home = () => {
                       <span>
                         Years of
                         <br />
-                        Software Development
+                        Software Engineering
                       </span>
                     </div>
                   </li>

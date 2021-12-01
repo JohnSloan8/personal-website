@@ -1282,6 +1282,9 @@ body.opened .kura_tm_hero .down {
     float: left;
     padding: 140px 0px 113px 0px;
 }
+#educationTimeline {
+    padding: 0px 0px 113px 0px;
+}
 .kura_tm_timeline .timeline_list {
     width: 100%;
     height: auto;
@@ -2478,3 +2481,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.margin-bottom-none {
+    margin-bottom: 0px !important;
+}
+
+.padding-top-lg {
+    margin-top: 15px;
+}
+
+.padding-left-lg {
+    margin-left: 20px;
+}
+
+.bullet-tech {
+    list-style: none;
+}
+
+.bullet-tech::before {
+    content: "\2022";
+    color: red;
+    width: 1em;
+    padding: 1em;
+}

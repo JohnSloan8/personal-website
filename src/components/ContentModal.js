@@ -1,14 +1,14 @@
 import { Modal } from "react-responsive-modal";
 
-const metaversetext = `A virtual environment allowing real time interaction between users with a focus on non-verbal signals. 
+const metaversetext = `A virtual environment for Irish allowing real time, multi-modal interaction between users through embodied avatars. 
 `
-const DSDtext = `An interactive, aesthetically pleasing and functional redesign of a complex training timetable. 
+const DSDtext = `A simplification of a complex and cluttered running schedule into an interactive, aesthetically pleasing and functional single page application. 
 `
-const saoirseText = `An expressive avatar with speech synthesis and accurate lip sync. 
+const saoirseText = `An expressive avatar rigged on Blender and animated in-brower with speech synthesis and accurate lip sync. 
 `
-const erleText = `. 
+const erleText = `A mobile, e-learning platform developed for my PhD research which enabled teachers to provide learners with feedback on spoken production through the expressions and gaze of an avatar. 
 `
-export const NewsModal = ({ open, onCloseModal, img, title, website, github, technologies, date }) => {
+export const NewsModal = ({ open, onCloseModal, img, title, website, demo, github, technologies, date }) => {
   return (
     <Modal open={open} onClose={() => onCloseModal()} center>
       <div className="box_inner">
@@ -28,9 +28,17 @@ export const NewsModal = ({ open, onCloseModal, img, title, website, github, tec
                 {title === "Saoirse: An Expressive Avatar" ? saoirseText : ``}
                 {title === "Emotional Response Language Education" ? erleText : ``}
               </p>
-              <p>website: <a href="vitual-gaeltacht.com">{website}</a></p>
-              <p>Github: <a href="vitual-gaeltacht.com">{github}</a></p>
-              <p>Technologies:</p>
+              <div className="padding-top-lg">
+                {website !== "" && <p>Website: <a href={website}>{website}</a></p>}
+                {demo !== "" && <p>Demo: <a href={demo}>{demo}</a></p>}
+                {github !== "" && <p>Github: <a href={github}>{github}</a></p>}
+                <p className="kura_tm_main_title padding-top-lg"><span className="margin-bottom-none">Built With:</span></p>
+                <ul className="padding-left-lg">
+                  {technologies.map( (t) => 
+                  <li className="bullet-tech">{t}</li>
+                  )}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

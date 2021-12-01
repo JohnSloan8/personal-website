@@ -7,34 +7,23 @@ const Timeline = () => {
         <div className="container">
           <div className="kura_tm_main_title">
             <span>Timeline</span>
-            <h3>Working Period</h3>
+            <h3>Work</h3>
           </div>
           <div className="timeline_list">
             <ul>
-              <li className="wow fadeInUp" data-wow-duration=".7s">
-                <div className="list_inner">
-                  <span>April, 2019 - Today</span>
-                </div>
-                <div className="list_inner">
-                  <span>Head Designer &amp; Co-founder</span>
-                </div>
-                <div className="list_inner">
-                  <span>Alan Klein Design, London</span>
-                </div>
-              </li>
               <li
                 className="wow fadeInUp"
                 data-wow-duration=".7s"
                 data-wow-delay=".2s"
               >
                 <div className="list_inner">
-                  <span>September, 2018 - April, 2019</span>
+                  <span>September, 2018 - August, 2019</span>
                 </div>
                 <div className="list_inner">
-                  <span>Creative Director &amp; Senior Designer</span>
+                  <span>Head Tutor</span>
                 </div>
                 <div className="list_inner">
-                  <span>Raxuna Poc, New York</span>
+                  <span>UCD Computer Science</span>
                 </div>
               </li>
               <li
@@ -43,28 +32,13 @@ const Timeline = () => {
                 data-wow-delay=".4s"
               >
                 <div className="list_inner">
-                  <span>October, 2015 - September, 2018</span>
+                  <span>September, 2018 - August, 2019</span>
                 </div>
                 <div className="list_inner">
-                  <span>Head Designer</span>
+                  <span>TA & Demonstrator</span>
                 </div>
                 <div className="list_inner">
-                  <span>Arimana Co. Ltd, Amsterdam</span>
-                </div>
-              </li>
-              <li
-                className="wow fadeInUp"
-                data-wow-duration=".7s"
-                data-wow-delay=".6s"
-              >
-                <div className="list_inner">
-                  <span>July, 2012 - October, 2015</span>
-                </div>
-                <div className="list_inner">
-                  <span>Senior UX &amp; UI Designer</span>
-                </div>
-                <div className="list_inner">
-                  <span>Baxdoro Design, London</span>
+                  <span>UCD Computer Science</span>
                 </div>
               </li>
               <li
@@ -73,13 +47,80 @@ const Timeline = () => {
                 data-wow-delay=".8s"
               >
                 <div className="list_inner">
-                  <span>March, 2010 - July, 2012</span>
+                  <span>Director</span>
                 </div>
                 <div className="list_inner">
-                  <span>Junior UX Designer</span>
+                  <span>존의 영어학원 (John's English Academy)</span>
                 </div>
                 <div className="list_inner">
-                  <span>Simono Design Group, London</span>
+                  <span>Seoul, South Korea</span>
+                </div>
+              </li>
+              <li
+                className="wow fadeInUp"
+                data-wow-duration=".7s"
+                data-wow-delay=".8s"
+              >
+                <div className="list_inner">
+                  <span>Business English Teacher</span>
+                </div>
+                <div className="list_inner">
+                  <span>Chungdahm Learning</span>
+                </div>
+                <div className="list_inner">
+                  <span>Seoul, South Korea</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="kura_tm_timeline" id="educationTimeline">
+        <div className="container">
+          <div className="kura_tm_main_title">
+            <h3>Education</h3>
+          </div>
+          <div className="timeline_list">
+            <ul>
+              <li className="wow fadeInUp" data-wow-duration=".7s">
+                <div className="list_inner">
+                  <span>September 2016 - September 2021</span>
+                </div>
+                <div className="list_inner">
+                  <span>PhD Computer Science</span>
+                </div>
+                <div className="list_inner">
+                  <span>University College Dublin</span>
+                </div>
+              </li>
+              <li
+                className="wow fadeInUp"
+                data-wow-duration=".7s"
+                data-wow-delay=".6s"
+              >
+                <div className="list_inner">
+                  <span>September, 2015 - August, 2016</span>
+                </div>
+                <div className="list_inner">
+                  <span>MA Linguistics</span>
+                </div>
+                <div className="list_inner">
+                  <span>University College Dublin</span>
+                </div>
+              </li>
+              <li
+                className="wow fadeInUp"
+                data-wow-duration=".7s"
+                data-wow-delay=".6s"
+              >
+                <div className="list_inner">
+                  <span>September, 2002 - June, 2007</span>
+                </div>
+                <div className="list_inner">
+                  <span>BEng Architecture & Structural Engineering</span>
+                </div>
+                <div className="list_inner">
+                  <span>University of Sheffield</span>
                 </div>
               </li>
             </ul>
