@@ -32,7 +32,7 @@ const Timeline = () => {
                 data-wow-delay=".4s"
               >
                 <div className="list_inner">
-                  <span>September, 2018 - August, 2019</span>
+                  <span>September, 2016 - August, 2018</span>
                 </div>
                 <div className="list_inner">
                   <span>TA & Demonstrator</span>
@@ -47,13 +47,13 @@ const Timeline = () => {
                 data-wow-delay=".8s"
               >
                 <div className="list_inner">
+                  <span>September, 2009 - July, 2015</span>
+                </div>
+                <div className="list_inner">
                   <span>Director</span>
                 </div>
                 <div className="list_inner">
-                  <span>존의 영어학원 (John's English Academy)</span>
-                </div>
-                <div className="list_inner">
-                  <span>Seoul, South Korea</span>
+                  <span>존의 영어학원 (John's English Academy), Seoul, South Korea</span>
                 </div>
               </li>
               <li
@@ -62,13 +62,13 @@ const Timeline = () => {
                 data-wow-delay=".8s"
               >
                 <div className="list_inner">
+                  <span>September, 2008 - August, 2010</span>
+                </div>
+                <div className="list_inner">
                   <span>Business English Teacher</span>
                 </div>
                 <div className="list_inner">
-                  <span>Chungdahm Learning</span>
-                </div>
-                <div className="list_inner">
-                  <span>Seoul, South Korea</span>
+                  <span>Chungdahm Learning, Seoul, South Korea</span>
                 </div>
               </li>
             </ul>
