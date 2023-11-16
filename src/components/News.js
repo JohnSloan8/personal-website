@@ -14,13 +14,29 @@ const News = () => {
     technologies: [],
     date: "",
   });
-  const onOpenModal = (img, title, website, demo, github, technologies, date) => {
+  const onOpenModal = (
+    img,
+    title,
+    website,
+    demo,
+    github,
+    technologies,
+    date
+  ) => {
     setOpen(true);
     setModalValue({ img, title, website, demo, github, technologies, date });
   };
   const onCloseModal = () => {
     setOpen(false);
-    setModalValue({ img: null, title: "", website: "", demo: "", github: "", technologies: [], date: "" });
+    setModalValue({
+      img: null,
+      title: "",
+      website: "",
+      demo: "",
+      github: "",
+      technologies: [],
+      date: "",
+    });
   };
 
   return (
@@ -39,11 +55,12 @@ const News = () => {
                     <SwiperSlide className="slick-slide">
                       <div className="list_inner">
                         <div className="image">
-                          <img src="/img/portfolio/410-460.jpg" alt="" />
+                          <img src="/img/hero/ABAIR-front-page-1.png" alt="" />
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/VirtualGaeltachtScreenshot.png)",
+                              backgroundImage:
+                                "url(/img/news/VirtualGaeltachtScreenshot.png)",
                             }}
                           ></div>
                         </div>
@@ -63,10 +80,16 @@ const News = () => {
                             onOpenModal(
                               "img/news/VirtualGaeltachtManyScreens.png",
                               "Metaverse 'as Gaeilge'",
-                              "https://virtual-gaeltacht.com",
-                              "https://youtube.com/watch?v=UlHRjp74tNM",
+                              "",
+                              "",
                               "https://github.com/JohnSloan8/virtual-gaeltacht",
-                              ["Node", "three.js", "WebRTC", "Express", "mongodb"]
+                              [
+                                "Node",
+                                "three.js",
+                                "WebRTC",
+                                "Express",
+                                "mongodb",
+                              ]
                             )
                           }
                         ></a>
@@ -79,7 +102,51 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/DSDScheduleScreenshot.png)",
+                              backgroundImage:
+                                "url(/img/news/VirtualGaeltachtScreenshot.png)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className="overlay"></div>
+                        <img
+                          className="svg"
+                          src="/img/svg/right-arrow.svg"
+                          alt=""
+                        />
+                        <div className="details">
+                          <span>Virtual Environment</span>
+                          <h3>Metaverse 'as Gaeilge'</h3>
+                        </div>
+                        <a
+                          className="kura_tm_full_link"
+                          onClick={() =>
+                            onOpenModal(
+                              "img/news/VirtualGaeltachtManyScreens.png",
+                              "Metaverse 'as Gaeilge'",
+                              "",
+                              "",
+                              "https://github.com/JohnSloan8/virtual-gaeltacht",
+                              [
+                                "Node",
+                                "three.js",
+                                "WebRTC",
+                                "Express",
+                                "mongodb",
+                              ]
+                            )
+                          }
+                        ></a>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slick-slide">
+                      <div className="list_inner">
+                        <div className="image">
+                          <img src="/img/portfolio/410-460.jpg" alt="" />
+                          <div
+                            className="main"
+                            style={{
+                              backgroundImage:
+                                "url(/img/news/DSDScheduleScreenshot.png)",
                             }}
                           ></div>
                         </div>
@@ -99,7 +166,7 @@ const News = () => {
                             onOpenModal(
                               `img/news/DSDScheduleSimplification.png`,
                               "DSDAC Training Schedule",
-                              "http://i-cant-believe-its-not-dsdac.com",
+                              "",
                               "",
                               "https://github.com/JohnSloan8/dsd-schedule",
                               ["Django", "chart.js"]
@@ -115,7 +182,8 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/ExpressiveAvatarSaoirseImage.png)",
+                              backgroundImage:
+                                "url(/img/news/ExpressiveAvatarSaoirseImage.png)",
                             }}
                           ></div>
                         </div>
@@ -138,7 +206,7 @@ const News = () => {
                               "",
                               "",
                               "https://github.com/JohnSloan8/erle-sandbox",
-                              ["Blender",  "Django", "three.js", "PostreSQL"]
+                              ["Blender", "Django", "three.js", "PostreSQL"]
                             )
                           }
                         ></a>
@@ -151,7 +219,8 @@ const News = () => {
                           <div
                             className="main"
                             style={{
-                              backgroundImage: "url(/img/news/three_saoirses.png)",
+                              backgroundImage:
+                                "url(/img/news/three_saoirses.png)",
                             }}
                           ></div>
                         </div>
@@ -174,7 +243,16 @@ const News = () => {
                               "",
                               "https://www.youtube.com/watch?v=0BSN6INwI8o",
                               "",
-                              ["Django", "three.js", "Blender", "PostgreSQL", "NLTK", "spaCy", "Web Speech API", "Cereproc Speech Synthesis SDK"]
+                              [
+                                "Django",
+                                "three.js",
+                                "Blender",
+                                "PostgreSQL",
+                                "NLTK",
+                                "spaCy",
+                                "Web Speech API",
+                                "Cereproc Speech Synthesis SDK",
+                              ]
                             )
                           }
                         ></a>

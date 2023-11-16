@@ -22,9 +22,28 @@ const Home = () => {
           <div className="content">
             <div className="left">
               <span className="name">John Sloan</span>
-              <h3 className="job">Teacher, Linguist, Software Engineer</h3>
+              <h3 className="job">Software Engineer, Linguist, Teacher</h3>
               <div className="services">
                 <ul>
+                  <li>
+                    <a
+                      href="#"
+                      onClick={() =>
+                        onOpenModal(
+                          "/img/hero/ABAIR-front-page-1.png",
+                          "Software Engineering"
+                        )
+                      }
+                    >
+                      <img className="image" src="/img/service/3.jpg" alt="" />
+                      <span>Software Engineering</span>
+                      <img
+                        className="svg"
+                        src="/img/svg/right-arrow.svg"
+                        alt=""
+                      />
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="#"
@@ -53,7 +72,7 @@ const Home = () => {
                           "/img/hero/johnsEnglishExpressions.png",
                           "MA Linguistics",
                           "/img/hero/university-college-dublin-logo.jpg"
-                      )
+                        )
                       }
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
@@ -69,11 +88,11 @@ const Home = () => {
                     <a
                       href="#"
                       onClick={() =>
-                        onOpenModal("/img/hero/teachingPic.jpg", "Teaching & Learning")
+                        onOpenModal("/img/hero/teachingPic.jpg", "Teaching")
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Teaching & Learning</span>
+                      <span>Teaching</span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -87,21 +106,21 @@ const Home = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>10+</h3>
+                      <h3>10</h3>
                       <span>
                         Years of
                         <br />
-                        Teaching
+                        Software Engineering
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>5+</h3>
+                      <h3>10</h3>
                       <span>
                         Years of
                         <br />
-                        Software Engineering
+                        Teaching
                       </span>
                     </div>
                   </li>
@@ -113,11 +132,15 @@ const Home = () => {
                 <img src="/img/thumbs/3-4.jpg" alt="" />
                 <div
                   className="main"
-                  style={{ backgroundImage: "url(img/hero/JohnTedCropped.jpg)" }}
+                  style={{
+                    backgroundImage: "url(img/hero/JohnTedCropped.jpg)",
+                  }}
                 ></div>
                 <div
                   className="shape"
-                  style={{ backgroundImage: "url(img/hero/codeScreenshot.png)" }}
+                  style={{
+                    backgroundImage: "url(img/hero/codeScreenshot.png)",
+                  }}
                 ></div>
               </div>
             </div>
