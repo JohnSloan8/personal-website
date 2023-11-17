@@ -69,8 +69,10 @@ export const NewsModal = ({
                   <span className="margin-bottom-none">Built With:</span>
                 </p>
                 <ul className="padding-left-lg">
-                  {technologies.map((t) => (
-                    <li className="bullet-tech">{t}</li>
+                  {technologies.map((t, i) => (
+                    <li key={i} className="bullet-tech">
+                      {t}
+                    </li>
                   ))}
                 </ul>
               </div>

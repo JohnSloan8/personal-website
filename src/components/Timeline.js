@@ -69,7 +69,8 @@ const Timeline = () => {
                 </div>
                 <div className="list_inner">
                   <span>
-                    존의 영어학원 (John's English Academy), Seoul, South Korea
+                    존의 영어학원 (John&apos;s English Academy), Seoul, South
+                    Korea
                   </span>
                 </div>
               </li>

@@ -198,7 +198,7 @@ const News = () => {
                         />
                         <div className="details">
                           <span>Virtual Environment</span>
-                          <h3>Metaverse 'as Gaeilge'</h3>
+                          <h3>Metaverse &apos;as Gaeilge&apos;</h3>
                         </div>
                         <a
                           className="kura_tm_full_link"
