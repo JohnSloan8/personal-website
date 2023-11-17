@@ -18,11 +18,12 @@ const SkillsCommunication = () => {
           <div className="skills_inner">
             <div className="left">
               <div className="kura_tm_main_title light">
-                <h3>Communication Skills</h3>
+                <h3>Communication & Teamwork</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration=".7s">
                 <p>
-                  Ten years experience teaching languages and Computer Science from elementary to third level.
+                  10 years experience teaching and mentoring in Linguistics and
+                  Computer Science from elementary to third level.
                 </p>
               </div>
               <div
@@ -63,6 +64,16 @@ const SkillsCommunication = () => {
                 <div className="progress_inner" data-value="90">
                   <span>
                     <span className="label">Teamwork</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" style={{ width: "90%" }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value="90">
+                  <span>
+                    <span className="label">Leadership</span>
                   </span>
                   <div className="background">
                     <div className="bar">

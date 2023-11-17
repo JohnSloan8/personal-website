@@ -30,7 +30,7 @@ const Home = () => {
                       href="#"
                       onClick={() =>
                         onOpenModal(
-                          "/img/hero/ABAIR-front-page-1.png",
+                          "/img/hero/ABAIR-front-page-1.webp",
                           "Software Engineering"
                         )
                       }
@@ -49,9 +49,9 @@ const Home = () => {
                       href="#"
                       onClick={() =>
                         onOpenModal(
-                          "/img/hero/phd-progression.jpeg",
+                          "/img/hero/phd-progression.webp",
                           "PhD Computer Science",
-                          "/img/hero/university-college-dublin-logo.jpg"
+                          "/img/hero/university-college-dublin-logo.webp"
                         )
                       }
                     >
@@ -69,9 +69,9 @@ const Home = () => {
                       href="#"
                       onClick={() =>
                         onOpenModal(
-                          "/img/hero/johnsEnglishExpressions.png",
+                          "/img/hero/johnsEnglishExpressions.webp",
                           "MA Linguistics",
-                          "/img/hero/university-college-dublin-logo.jpg"
+                          "/img/hero/university-college-dublin-logo.webp"
                         )
                       }
                     >
@@ -88,7 +88,7 @@ const Home = () => {
                     <a
                       href="#"
                       onClick={() =>
-                        onOpenModal("/img/hero/teachingPic.jpg", "Teaching")
+                        onOpenModal("/img/hero/teachingPic.webp", "Teaching")
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
@@ -133,13 +133,13 @@ const Home = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(img/hero/JohnTedCropped.jpg)",
+                    backgroundImage: "url(img/hero/JohnTedCropped.webp)",
                   }}
                 ></div>
                 <div
                   className="shape"
                   style={{
-                    backgroundImage: "url(img/hero/codeScreenshot.png)",
+                    backgroundImage: "url(img/hero/codeScreenshot.webp)",
                   }}
                 ></div>
               </div>

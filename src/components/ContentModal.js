@@ -8,6 +8,12 @@ const saoirseText = `An expressive avatar rigged on Blender and animated in-brow
 `;
 const erleText = `A mobile, e-learning platform developed for my PhD research which enabled teachers to provide learners with feedback on spoken production through the expressions and gaze of an avatar. 
 `;
+const abairText = `A portal for the speech and language technologies developed by the ABAIR research team. 
+`;
+const islText = `A card flip game for learning finger spelling of the Irish Sign Language alphabet. 
+`;
+const batText = `A chatbot which helps Irish learners master the 11 irregular verbs. 
+`;
 export const NewsModal = ({
   open,
   onCloseModal,
@@ -39,6 +45,9 @@ export const NewsModal = ({
                 {title === "Emotional Response Language Education"
                   ? erleText
                   : ``}
+                {title === "ABAIR Website" ? abairText : ``}
+                {title === "ISL Game" ? islText : ``}
+                {title === "Bat Mírialta" ? batText : ``}
               </p>
               <div className="padding-top-lg">
                 {website !== "" && (
@@ -98,7 +107,7 @@ export const HomeModal = ({ open, onCloseModal, img, title, logo, date }) => {
             {!["Teaching", "Software Engineering"].includes(title) ? (
               <div className="image">
                 <img
-                  src="/img/hero/university-college-dublin-logo.jpg"
+                  src="/img/hero/university-college-dublin-logo.webp"
                   alt=""
                 />
               </div>

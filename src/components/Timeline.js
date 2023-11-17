@@ -17,6 +17,21 @@ const Timeline = () => {
                 data-wow-delay=".2s"
               >
                 <div className="list_inner">
+                  <span>December, 2021 - present</span>
+                </div>
+                <div className="list_inner">
+                  <span>Software Engineer</span>
+                </div>
+                <div className="list_inner">
+                  <span>ABAIR, Trinity College Dublin</span>
+                </div>
+              </li>
+              <li
+                className="wow fadeInUp"
+                data-wow-duration=".7s"
+                data-wow-delay=".2s"
+              >
+                <div className="list_inner">
                   <span>September, 2018 - August, 2019</span>
                 </div>
                 <div className="list_inner">
@@ -53,7 +68,9 @@ const Timeline = () => {
                   <span>Director</span>
                 </div>
                 <div className="list_inner">
-                  <span>존의 영어학원 (John's English Academy), Seoul, South Korea</span>
+                  <span>
+                    존의 영어학원 (John's English Academy), Seoul, South Korea
+                  </span>
                 </div>
               </li>
               <li

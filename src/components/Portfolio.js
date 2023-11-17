@@ -5,8 +5,8 @@ import { portfolioSlider } from "../swiperSliderProps";
 
 const IMAGES = [
   {
-    src: "/img/portfolio/VirtualGaeltachtScreenshot.png",
-    thumbnail: "/img/portfolio/VirtualGaeltachtScreenshot.jpg",
+    src: "/img/portfolio/VirtualGaeltachtScreenshot.webp",
+    thumbnail: "/img/portfolio/VirtualGaeltachtScreenshot.webp",
     title: "Virtual Gaeltacht",
     sub: "Virtual Gaeltacht",
   },

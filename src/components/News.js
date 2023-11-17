@@ -55,12 +55,138 @@ const News = () => {
                     <SwiperSlide className="slick-slide">
                       <div className="list_inner">
                         <div className="image">
-                          <img src="/img/hero/ABAIR-front-page-1.png" alt="" />
+                          <img src="/img/portfolio/410-460.jpg" alt="" />
                           <div
                             className="main"
                             style={{
                               backgroundImage:
-                                "url(/img/news/VirtualGaeltachtScreenshot.png)",
+                                "url(/img/hero/ABAIR-front-page-1.webp)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className="overlay"></div>
+                        <img
+                          className="svg"
+                          src="/img/svg/right-arrow.svg"
+                          alt=""
+                        />
+                        <div className="details">
+                          <span>Web Development</span>
+                          <h3>ABAIR website</h3>
+                        </div>
+                        <a
+                          className="kura_tm_full_link"
+                          onClick={() =>
+                            onOpenModal(
+                              "img/news/abair.gif",
+                              "ABAIR Website",
+
+                              "https://abair.ie",
+                              "",
+                              "https://github.com/phonlab-tcd/abair-main-website",
+                              [
+                                "Node",
+                                "React",
+                                "Next.js",
+                                "Web Speech API",
+                                "Supabase",
+                              ]
+                            )
+                          }
+                        ></a>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slick-slide">
+                      <div className="list_inner">
+                        <div className="image">
+                          <img src="/img/portfolio/410-460.jpg" alt="" />
+                          <div
+                            className="main"
+                            style={{
+                              backgroundImage:
+                                "url(/img/news/ISL-card-game-shot.webp)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className="overlay"></div>
+                        <img
+                          className="svg"
+                          src="/img/svg/right-arrow.svg"
+                          alt=""
+                        />
+                        <div className="details">
+                          <span>Web Application</span>
+                          <h3>Irish Sign Language Game</h3>
+                        </div>
+                        <a
+                          className="kura_tm_full_link"
+                          onClick={() =>
+                            onOpenModal(
+                              "img/news/isl.gif",
+                              "ISL Game",
+
+                              "https://isl-card-flip-game.netlify.app/",
+                              "",
+                              "https://github.com/JohnSloan8/isl-card-flip-game",
+                              ["Node", "React"]
+                            )
+                          }
+                        ></a>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slick-slide">
+                      <div className="list_inner">
+                        <div className="image">
+                          <img src="/img/portfolio/410-460.jpg" alt="" />
+                          <div
+                            className="main"
+                            style={{
+                              backgroundImage:
+                                "url(/img/news/Bat-Screenshot-Chat-Page.webp)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className="overlay"></div>
+                        <img
+                          className="svg"
+                          src="/img/svg/right-arrow.svg"
+                          alt=""
+                        />
+                        <div className="details">
+                          <span>E-learning Platform</span>
+                          <h3>Irish Irregular Verb Chatbot</h3>
+                        </div>
+                        <a
+                          className="kura_tm_full_link"
+                          onClick={() =>
+                            onOpenModal(
+                              "img/news/bat.gif.gif",
+                              "Bat Mírialta",
+
+                              "https://bat-mirialta.abair.ie",
+                              "",
+                              "https://github.com/phonlab-tcd/bat-mirialta",
+                              [
+                                "Node",
+                                "React",
+                                "TypeScript",
+                                "PostgreSQL",
+                                "Express",
+                              ]
+                            )
+                          }
+                        ></a>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slick-slide">
+                      <div className="list_inner">
+                        <div className="image">
+                          <img src="/img/portfolio/410-460.jpg" alt="" />
+                          <div
+                            className="main"
+                            style={{
+                              backgroundImage:
+                                "url(/img/news/VirtualGaeltachtScreenshot.webp)",
                             }}
                           ></div>
                         </div>
@@ -78,7 +204,7 @@ const News = () => {
                           className="kura_tm_full_link"
                           onClick={() =>
                             onOpenModal(
-                              "img/news/VirtualGaeltachtManyScreens.png",
+                              "img/news/VirtualGaeltachtManyScreens.webp",
                               "Metaverse 'as Gaeilge'",
                               "",
                               "",
@@ -103,50 +229,7 @@ const News = () => {
                             className="main"
                             style={{
                               backgroundImage:
-                                "url(/img/news/VirtualGaeltachtScreenshot.png)",
-                            }}
-                          ></div>
-                        </div>
-                        <div className="overlay"></div>
-                        <img
-                          className="svg"
-                          src="/img/svg/right-arrow.svg"
-                          alt=""
-                        />
-                        <div className="details">
-                          <span>Virtual Environment</span>
-                          <h3>Metaverse 'as Gaeilge'</h3>
-                        </div>
-                        <a
-                          className="kura_tm_full_link"
-                          onClick={() =>
-                            onOpenModal(
-                              "img/news/VirtualGaeltachtManyScreens.png",
-                              "Metaverse 'as Gaeilge'",
-                              "",
-                              "",
-                              "https://github.com/JohnSloan8/virtual-gaeltacht",
-                              [
-                                "Node",
-                                "three.js",
-                                "WebRTC",
-                                "Express",
-                                "mongodb",
-                              ]
-                            )
-                          }
-                        ></a>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="slick-slide">
-                      <div className="list_inner">
-                        <div className="image">
-                          <img src="/img/portfolio/410-460.jpg" alt="" />
-                          <div
-                            className="main"
-                            style={{
-                              backgroundImage:
-                                "url(/img/news/DSDScheduleScreenshot.png)",
+                                "url(/img/news/DSDScheduleScreenshot.webp)",
                             }}
                           ></div>
                         </div>
@@ -164,7 +247,7 @@ const News = () => {
                           className="kura_tm_full_link"
                           onClick={() =>
                             onOpenModal(
-                              `img/news/DSDScheduleSimplification.png`,
+                              `img/news/DSDScheduleSimplification.webp`,
                               "DSDAC Training Schedule",
                               "",
                               "",
@@ -183,7 +266,7 @@ const News = () => {
                             className="main"
                             style={{
                               backgroundImage:
-                                "url(/img/news/ExpressiveAvatarSaoirseImage.png)",
+                                "url(/img/news/ExpressiveAvatarSaoirseImage.webp)",
                             }}
                           ></div>
                         </div>
@@ -220,7 +303,7 @@ const News = () => {
                             className="main"
                             style={{
                               backgroundImage:
-                                "url(/img/news/three_saoirses.png)",
+                                "url(/img/news/three_saoirses.webp)",
                             }}
                           ></div>
                         </div>
@@ -241,7 +324,7 @@ const News = () => {
                               `img/news/ERLEDemo.gif`,
                               "Emotional Response Language Education",
                               "",
-                              "https://www.youtube.com/watch?v=0BSN6INwI8o",
+                              "",
                               "",
                               [
                                 "Django",
